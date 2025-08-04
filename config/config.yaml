@@ -1,0 +1,8 @@
+server:
+  url: "0.0.0.0:8080"
+  auth_token: "very_secret_key"
+  serverURL: "http://localhost:8081/users"
+
+logger:
+  sink: "provider.log"
+  level: debug
